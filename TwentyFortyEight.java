@@ -24,7 +24,7 @@ public class TwentyFortyEight
         if(game.gameOver())
             System.out.println("You Lose!");
     }
-
+//This is the board print out
     public static void print(Board game){
         System.out.println(" ________________________________");
         System.out.println("| " +game.cell(0,0)+ " | " +game.cell(0,1)+ " | " +game.cell(0,2)+ " | " +game.cell(0,3)+ " |");
@@ -47,5 +47,5 @@ public class TwentyFortyEight
         if(choice.equals("down")|| choice.equals("s")){
             game.down();
         }
-    }   
+    }
 }
