@@ -2,7 +2,7 @@
 
 **2048** is a sliding puzzle game made in Java.
 
-<img src='./Walkthrough Gif.gif' title='Walkthrough' width='300' alt='Walkthrough' />
+<img src='./Walkthrough.gif' title='Walkthrough' width='300' alt='Walkthrough' />
 
 ## User Stories
 
