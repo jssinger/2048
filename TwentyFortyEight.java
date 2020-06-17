@@ -16,15 +16,17 @@ public class TwentyFortyEight
             direction = scan.next();
             choice(direction);
             print(game);
+            System.out.println("Resulting Board");
             game.midGame();
             print(game);
+            System.out.println("New Board");
         }
         if(game.win())
             System.out.println("Great Job! You Won!");
         if(game.gameOver())
             System.out.println("You Lose!");
     }
-//This is the board print out
+
     public static void print(Board game){
         System.out.println(" ________________________________");
         System.out.println("| " +game.cell(0,0)+ " | " +game.cell(0,1)+ " | " +game.cell(0,2)+ " | " +game.cell(0,3)+ " |");
@@ -35,17 +37,17 @@ public class TwentyFortyEight
     }
 
     public static void choice(String choice){
-        if(choice.equals("left") || choice.equals("a")){
+        if(choice.equalsIgnoreCase("left") || choice.equalsIgnoreCase("a")){
             game.left();
         }
-        if(choice.equals("right")|| choice.equals("d")){
+        if(choice.equalsIgnoreCase("right")|| choice.equalsIgnoreCase("d")){
             game.right();
         }
-        if(choice.equals("up")|| choice.equals("w")){
+        if(choice.equalsIgnoreCase("up")|| choice.equalsIgnoreCase("w")){
             game.up();
         }
-        if(choice.equals("down")|| choice.equals("s")){
+        if(choice.equalsIgnoreCase("down")|| choice.equalsIgnoreCase("s")){
             game.down();
         }
-    }
+    }   
 }
