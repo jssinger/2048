@@ -4,6 +4,8 @@
 
 <img src='./Walkthrough.gif' title='Walkthrough' width='300' alt='Walkthrough' />
 
+<img src='./Victory.png' title='Victory' width='300' alt='Victory' />
+
 ## User Stories
 
 The following functionality is complete:
