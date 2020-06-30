@@ -15,6 +15,7 @@ The following functionality is complete:
 * [X] Program prints new board for user to move featuring new block
 * [X] User can move board with keyboard commands (WASD) or words (left, up, etc.)
 * [X] Program recognizes when game is over, either in victory or defeat
+* [X] Blocks adjust spacing as block number increases to maintain continuity in block size
 
 ## License
 
